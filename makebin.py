@@ -19,7 +19,7 @@ name_map = [
 
 bootloader_path = os.getcwd().replace('/', '//') + '//app0_bootloader'
 
-create_path = ['Module', 'Unit','Advanced','M5Core','Application']
+create_path = ['Module', 'Unit','Advanced','M5Core','Application','M5StickC']
 
 def get_cover_list(path):
     file_list = os.listdir(path)
